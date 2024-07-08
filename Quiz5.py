@@ -77,3 +77,13 @@ def pembagi_indeksi(nums,divisor):
 vals = [100, 66, 55, 64, 41, 35, 18, 64]
 result = pembagi_indeksi(vals, 5)
 print(result)
+
+print("\n 8. ")
+def mystery(n,m):
+    p=0
+    e=0
+    while p < n :
+        p= p + 1
+        e= 0
+    return p
+print(mystery(4,3))
